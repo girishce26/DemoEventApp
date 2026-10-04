@@ -1,0 +1,722 @@
+[
+  {
+    "id": "1",
+    "title": "Toronto Android Meetup",
+    "location": "Downtown Toronto",
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "time": "2026-10-10T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/android1/600/400"
+  },
+  {
+    "id": "2",
+    "title": "Tech Conference",
+    "location": "Mississauga Convention Centre",
+    "latitude": 43.6487,
+    "longitude": -79.6583,
+    "time": "2026-10-15T09:00:00",
+    "imageUrl": "https://picsum.photos/seed/technology2/600/400"
+  },
+  {
+    "id": "3",
+    "title": "Kotlin Developer Night",
+    "location": "Brampton",
+    "latitude": 43.7315,
+    "longitude": -79.7624,
+    "time": "2026-10-20T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/kotlin3/600/400"
+  },
+  {
+    "id": "4",
+    "title": "Mobile Engineering Workshop",
+    "location": "North York",
+    "latitude": 43.7615,
+    "longitude": -79.4111,
+    "time": "2026-10-25T10:00:00",
+    "imageUrl": "https://picsum.photos/seed/mobile4/600/400"
+  },
+  {
+    "id": "5",
+    "title": "Android Architecture Workshop",
+    "location": "Brampton",
+    "latitude": 43.731,
+    "longitude": -79.762,
+    "time": "2026-10-05T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/android5/600/400"
+  },
+  {
+    "id": "6",
+    "title": "Java Developers Meetup",
+    "location": "Mississauga",
+    "latitude": 43.589,
+    "longitude": -79.6441,
+    "time": "2026-10-06T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/java6/600/400"
+  },
+  {
+    "id": "7",
+    "title": "React Native Meetup",
+    "location": "Etobicoke",
+    "latitude": 43.6205,
+    "longitude": -79.5132,
+    "time": "2026-10-07T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/react7/600/400"
+  },
+  {
+    "id": "8",
+    "title": "Cloud Engineering Meetup",
+    "location": "Mississauga",
+    "latitude": 43.589,
+    "longitude": -79.6441,
+    "time": "2026-10-08T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/cloud8/600/400"
+  },
+  {
+    "id": "9",
+    "title": "AI Developers Meetup",
+    "location": "Toronto",
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "time": "2026-10-09T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/ai9/600/400"
+  },
+  {
+    "id": "10",
+    "title": "Software Architecture Forum",
+    "location": "Vaughan",
+    "latitude": 43.8563,
+    "longitude": -79.5085,
+    "time": "2026-10-10T10:00:00",
+    "imageUrl": "https://picsum.photos/seed/software10/600/400"
+  },
+  {
+    "id": "11",
+    "title": "Android Jetpack Workshop",
+    "location": "Brampton",
+    "latitude": 43.7315,
+    "longitude": -79.7624,
+    "time": "2026-10-11T11:00:00",
+    "imageUrl": "https://picsum.photos/seed/jetpack11/600/400"
+  },
+  {
+    "id": "12",
+    "title": "Kotlin Coroutines Workshop",
+    "location": "Mississauga",
+    "latitude": 43.6073,
+    "longitude": -79.652,
+    "time": "2026-10-11T14:00:00",
+    "imageUrl": "https://picsum.photos/seed/coroutines12/600/400"
+  },
+  {
+    "id": "13",
+    "title": "Mobile App Security Meetup",
+    "location": "Toronto",
+    "latitude": 43.651,
+    "longitude": -79.347,
+    "time": "2026-10-12T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/security13/600/400"
+  },
+  {
+    "id": "14",
+    "title": "Firebase Developer Night",
+    "location": "Brampton",
+    "latitude": 43.705,
+    "longitude": -79.77,
+    "time": "2026-10-12T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/firebase14/600/400"
+  },
+  {
+    "id": "15",
+    "title": "Compose UI Workshop",
+    "location": "North York",
+    "latitude": 43.7615,
+    "longitude": -79.4111,
+    "time": "2026-10-13T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/compose15/600/400"
+  },
+  {
+    "id": "16",
+    "title": "Backend Engineering Meetup",
+    "location": "Mississauga",
+    "latitude": 43.593,
+    "longitude": -79.635,
+    "time": "2026-10-13T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/backend16/600/400"
+  },
+  {
+    "id": "17",
+    "title": "DevOps & CI/CD Workshop",
+    "location": "Brampton",
+    "latitude": 43.695,
+    "longitude": -79.755,
+    "time": "2026-10-14T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/devops17/600/400"
+  },
+  {
+    "id": "18",
+    "title": "Tech Leaders Networking",
+    "location": "Downtown Toronto",
+    "latitude": 43.6488,
+    "longitude": -79.377,
+    "time": "2026-10-14T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/leaders18/600/400"
+  },
+  {
+    "id": "19",
+    "title": "Cybersecurity Conference",
+    "location": "Toronto",
+    "latitude": 43.645,
+    "longitude": -79.38,
+    "time": "2026-10-15T10:00:00",
+    "imageUrl": "https://picsum.photos/seed/cyber19/600/400"
+  },
+  {
+    "id": "20",
+    "title": "Cloud Native Workshop",
+    "location": "Mississauga",
+    "latitude": 43.602,
+    "longitude": -79.64,
+    "time": "2026-10-15T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/cloud20/600/400"
+  },
+  {
+    "id": "21",
+    "title": "Spring Boot Meetup",
+    "location": "Brampton",
+    "latitude": 43.689,
+    "longitude": -79.76,
+    "time": "2026-10-16T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/spring21/600/400"
+  },
+  {
+    "id": "22",
+    "title": "Kotlin Multiplatform Meetup",
+    "location": "Toronto",
+    "latitude": 43.662,
+    "longitude": -79.395,
+    "time": "2026-10-16T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/kmp22/600/400"
+  },
+  {
+    "id": "23",
+    "title": "Data Engineering Meetup",
+    "location": "Mississauga",
+    "latitude": 43.61,
+    "longitude": -79.65,
+    "time": "2026-10-17T10:00:00",
+    "imageUrl": "https://picsum.photos/seed/data23/600/400"
+  },
+  {
+    "id": "24",
+    "title": "Machine Learning Workshop",
+    "location": "Vaughan",
+    "latitude": 43.835,
+    "longitude": -79.498,
+    "time": "2026-10-17T13:00:00",
+    "imageUrl": "https://picsum.photos/seed/ml24/600/400"
+  },
+  {
+    "id": "25",
+    "title": "Android Testing Workshop",
+    "location": "Brampton",
+    "latitude": 43.72,
+    "longitude": -79.75,
+    "time": "2026-10-18T11:00:00",
+    "imageUrl": "https://picsum.photos/seed/testing25/600/400"
+  },
+  {
+    "id": "26",
+    "title": "UI/UX Design Meetup",
+    "location": "Toronto",
+    "latitude": 43.64,
+    "longitude": -79.39,
+    "time": "2026-10-18T14:00:00",
+    "imageUrl": "https://picsum.photos/seed/design26/600/400"
+  },
+  {
+    "id": "27",
+    "title": "Git & GitHub Workshop",
+    "location": "Mississauga",
+    "latitude": 43.596,
+    "longitude": -79.62,
+    "time": "2026-10-19T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/git27/600/400"
+  },
+  {
+    "id": "28",
+    "title": "Open Source Developers Meetup",
+    "location": "Brampton",
+    "latitude": 43.706,
+    "longitude": -79.75,
+    "time": "2026-10-19T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/opensource28/600/400"
+  },
+  {
+    "id": "29",
+    "title": "Android Performance Meetup",
+    "location": "North York",
+    "latitude": 43.775,
+    "longitude": -79.415,
+    "time": "2026-10-20T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/performance29/600/400"
+  },
+  {
+    "id": "30",
+    "title": "Cloud Security Forum",
+    "location": "Toronto",
+    "latitude": 43.67,
+    "longitude": -79.385,
+    "time": "2026-10-20T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/cloudsecurity30/600/400"
+  },
+  {
+    "id": "31",
+    "title": "React Developer Meetup",
+    "location": "Mississauga",
+    "latitude": 43.586,
+    "longitude": -79.645,
+    "time": "2026-10-21T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/react31/600/400"
+  },
+  {
+    "id": "32",
+    "title": "TypeScript Workshop",
+    "location": "Brampton",
+    "latitude": 43.715,
+    "longitude": -79.775,
+    "time": "2026-10-21T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/typescript32/600/400"
+  },
+  {
+    "id": "33",
+    "title": "Software Engineering Career Night",
+    "location": "Toronto",
+    "latitude": 43.655,
+    "longitude": -79.4,
+    "time": "2026-10-22T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/career33/600/400"
+  },
+  {
+    "id": "34",
+    "title": "DevSecOps Meetup",
+    "location": "Mississauga",
+    "latitude": 43.61,
+    "longitude": -79.63,
+    "time": "2026-10-22T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/devsecops34/600/400"
+  },
+  {
+    "id": "35",
+    "title": "Android Automotive Meetup",
+    "location": "Brampton",
+    "latitude": 43.735,
+    "longitude": -79.755,
+    "time": "2026-10-23T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/automotive35/600/400"
+  },
+  {
+    "id": "36",
+    "title": "Embedded Systems Workshop",
+    "location": "Vaughan",
+    "latitude": 43.82,
+    "longitude": -79.52,
+    "time": "2026-10-23T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/embedded36/600/400"
+  },
+  {
+    "id": "37",
+    "title": "AOSP Developers Meetup",
+    "location": "Toronto",
+    "latitude": 43.65,
+    "longitude": -79.37,
+    "time": "2026-10-24T10:00:00",
+    "imageUrl": "https://picsum.photos/seed/aosp37/600/400"
+  },
+  {
+    "id": "38",
+    "title": "Linux Kernel Workshop",
+    "location": "Mississauga",
+    "latitude": 43.595,
+    "longitude": -79.66,
+    "time": "2026-10-24T13:00:00",
+    "imageUrl": "https://picsum.photos/seed/linux38/600/400"
+  },
+  {
+    "id": "39",
+    "title": "IoT Developers Meetup",
+    "location": "Brampton",
+    "latitude": 43.725,
+    "longitude": -79.735,
+    "time": "2026-10-24T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/iot39/600/400"
+  },
+  {
+    "id": "40",
+    "title": "Mobile Product Management Forum",
+    "location": "Toronto",
+    "latitude": 43.642,
+    "longitude": -79.385,
+    "time": "2026-10-25T14:00:00",
+    "imageUrl": "https://picsum.photos/seed/product40/600/400"
+  },
+  {
+    "id": "41",
+    "title": "Kotlin Flow Workshop",
+    "location": "Brampton",
+    "latitude": 43.74,
+    "longitude": -79.77,
+    "time": "2026-10-26T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/flow41/600/400"
+  },
+  {
+    "id": "42",
+    "title": "Jetpack Compose Meetup",
+    "location": "Mississauga",
+    "latitude": 43.62,
+    "longitude": -79.65,
+    "time": "2026-10-26T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/compose42/600/400"
+  },
+  {
+    "id": "43",
+    "title": "API Design Workshop",
+    "location": "Toronto",
+    "latitude": 43.66,
+    "longitude": -79.39,
+    "time": "2026-10-27T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/api43/600/400"
+  },
+  {
+    "id": "44",
+    "title": "REST API Developers Meetup",
+    "location": "Brampton",
+    "latitude": 43.715,
+    "longitude": -79.74,
+    "time": "2026-10-27T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/rest44/600/400"
+  },
+  {
+    "id": "45",
+    "title": "Database Engineering Meetup",
+    "location": "Mississauga",
+    "latitude": 43.59,
+    "longitude": -79.61,
+    "time": "2026-10-28T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/database45/600/400"
+  },
+  {
+    "id": "46",
+    "title": "PostgreSQL Workshop",
+    "location": "Toronto",
+    "latitude": 43.648,
+    "longitude": -79.405,
+    "time": "2026-10-28T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/postgres46/600/400"
+  },
+  {
+    "id": "47",
+    "title": "Microservices Architecture Meetup",
+    "location": "Brampton",
+    "latitude": 43.69,
+    "longitude": -79.78,
+    "time": "2026-10-29T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/microservices47/600/400"
+  },
+  {
+    "id": "48",
+    "title": "Docker & Kubernetes Workshop",
+    "location": "Mississauga",
+    "latitude": 43.605,
+    "longitude": -79.645,
+    "time": "2026-10-29T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/kubernetes48/600/400"
+  },
+  {
+    "id": "49",
+    "title": "Google Cloud Meetup",
+    "location": "Toronto",
+    "latitude": 43.67,
+    "longitude": -79.38,
+    "time": "2026-10-30T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/gcp49/600/400"
+  },
+  {
+    "id": "50",
+    "title": "AWS Developers Meetup",
+    "location": "Vaughan",
+    "latitude": 43.84,
+    "longitude": -79.51,
+    "time": "2026-10-30T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/aws50/600/400"
+  },
+  {
+    "id": "51",
+    "title": "Software Testing Conference",
+    "location": "Mississauga",
+    "latitude": 43.59,
+    "longitude": -79.65,
+    "time": "2026-10-31T09:00:00",
+    "imageUrl": "https://picsum.photos/seed/testing51/600/400"
+  },
+  {
+    "id": "52",
+    "title": "QA Automation Workshop",
+    "location": "Brampton",
+    "latitude": 43.73,
+    "longitude": -79.75,
+    "time": "2026-10-31T13:00:00",
+    "imageUrl": "https://picsum.photos/seed/qa52/600/400"
+  },
+  {
+    "id": "53",
+    "title": "Mobile CI/CD Meetup",
+    "location": "Toronto",
+    "latitude": 43.655,
+    "longitude": -79.375,
+    "time": "2026-11-01T11:00:00",
+    "imageUrl": "https://picsum.photos/seed/cicd53/600/400"
+  },
+  {
+    "id": "54",
+    "title": "GitHub Actions Workshop",
+    "location": "Mississauga",
+    "latitude": 43.6,
+    "longitude": -79.64,
+    "time": "2026-11-01T14:00:00",
+    "imageUrl": "https://picsum.photos/seed/github54/600/400"
+  },
+  {
+    "id": "55",
+    "title": "Android NDK Workshop",
+    "location": "Brampton",
+    "latitude": 43.705,
+    "longitude": -79.745,
+    "time": "2026-11-02T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/ndk55/600/400"
+  },
+  {
+    "id": "56",
+    "title": "C++ Developers Meetup",
+    "location": "Toronto",
+    "latitude": 43.66,
+    "longitude": -79.4,
+    "time": "2026-11-02T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/cpp56/600/400"
+  },
+  {
+    "id": "57",
+    "title": "Automotive Software Conference",
+    "location": "Vaughan",
+    "latitude": 43.82,
+    "longitude": -79.5,
+    "time": "2026-11-03T09:00:00",
+    "imageUrl": "https://picsum.photos/seed/auto57/600/400"
+  },
+  {
+    "id": "58",
+    "title": "Connected Car Technology Meetup",
+    "location": "Brampton",
+    "latitude": 43.72,
+    "longitude": -79.76,
+    "time": "2026-11-03T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/car58/600/400"
+  },
+  {
+    "id": "59",
+    "title": "SOME/IP Automotive Workshop",
+    "location": "Mississauga",
+    "latitude": 43.61,
+    "longitude": -79.66,
+    "time": "2026-11-04T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/someip59/600/400"
+  },
+  {
+    "id": "60",
+    "title": "Embedded Linux Meetup",
+    "location": "Toronto",
+    "latitude": 43.645,
+    "longitude": -79.4,
+    "time": "2026-11-04T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/embedded60/600/400"
+  },
+  {
+    "id": "61",
+    "title": "System Design Interview Workshop",
+    "location": "Brampton",
+    "latitude": 43.69,
+    "longitude": -79.76,
+    "time": "2026-11-05T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/systemdesign61/600/400"
+  },
+  {
+    "id": "62",
+    "title": "Senior Developers Networking",
+    "location": "Mississauga",
+    "latitude": 43.595,
+    "longitude": -79.64,
+    "time": "2026-11-05T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/networking62/600/400"
+  },
+  {
+    "id": "63",
+    "title": "Tech Startup Networking",
+    "location": "Toronto",
+    "latitude": 43.65,
+    "longitude": -79.39,
+    "time": "2026-11-06T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/startup63/600/400"
+  },
+  {
+    "id": "64",
+    "title": "Product Engineering Meetup",
+    "location": "Vaughan",
+    "latitude": 43.85,
+    "longitude": -79.52,
+    "time": "2026-11-06T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/product64/600/400"
+  },
+  {
+    "id": "65",
+    "title": "FinTech Developers Meetup",
+    "location": "Downtown Toronto",
+    "latitude": 43.648,
+    "longitude": -79.38,
+    "time": "2026-11-07T10:00:00",
+    "imageUrl": "https://picsum.photos/seed/fintech65/600/400"
+  },
+  {
+    "id": "66",
+    "title": "Payment Technology Workshop",
+    "location": "Mississauga",
+    "latitude": 43.6,
+    "longitude": -79.65,
+    "time": "2026-11-07T13:00:00",
+    "imageUrl": "https://picsum.photos/seed/payment66/600/400"
+  },
+  {
+    "id": "67",
+    "title": "POS Technology Meetup",
+    "location": "Brampton",
+    "latitude": 43.735,
+    "longitude": -79.765,
+    "time": "2026-11-08T11:00:00",
+    "imageUrl": "https://picsum.photos/seed/pos67/600/400"
+  },
+  {
+    "id": "68",
+    "title": "Retail Technology Conference",
+    "location": "Toronto",
+    "latitude": 43.642,
+    "longitude": -79.39,
+    "time": "2026-11-08T14:00:00",
+    "imageUrl": "https://picsum.photos/seed/retail68/600/400"
+  },
+  {
+    "id": "69",
+    "title": "GIS Developers Meetup",
+    "location": "Mississauga",
+    "latitude": 43.61,
+    "longitude": -79.63,
+    "time": "2026-11-09T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/gis69/600/400"
+  },
+  {
+    "id": "70",
+    "title": "Geospatial Technology Workshop",
+    "location": "Brampton",
+    "latitude": 43.71,
+    "longitude": -79.77,
+    "time": "2026-11-09T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/geospatial70/600/400"
+  },
+  {
+    "id": "71",
+    "title": "BLE & IoT Workshop",
+    "location": "Toronto",
+    "latitude": 43.655,
+    "longitude": -79.385,
+    "time": "2026-11-10T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/ble71/600/400"
+  },
+  {
+    "id": "72",
+    "title": "Wearable Technology Meetup",
+    "location": "Mississauga",
+    "latitude": 43.59,
+    "longitude": -79.65,
+    "time": "2026-11-10T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/wearable72/600/400"
+  },
+  {
+    "id": "73",
+    "title": "AI on Mobile Workshop",
+    "location": "Brampton",
+    "latitude": 43.725,
+    "longitude": -79.755,
+    "time": "2026-11-11T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/mobileai73/600/400"
+  },
+  {
+    "id": "74",
+    "title": "Machine Learning Networking",
+    "location": "Toronto",
+    "latitude": 43.67,
+    "longitude": -79.4,
+    "time": "2026-11-11T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/ml74/600/400"
+  },
+  {
+    "id": "75",
+    "title": "Software Architecture Meetup",
+    "location": "Mississauga",
+    "latitude": 43.6,
+    "longitude": -79.635,
+    "time": "2026-11-12T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/architecture75/600/400"
+  },
+  {
+    "id": "76",
+    "title": "Clean Architecture Workshop",
+    "location": "Brampton",
+    "latitude": 43.73,
+    "longitude": -79.76,
+    "time": "2026-11-12T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/clean76/600/400"
+  },
+  {
+    "id": "77",
+    "title": "Leadership in Technology Forum",
+    "location": "Toronto",
+    "latitude": 43.65,
+    "longitude": -79.38,
+    "time": "2026-11-13T18:00:00",
+    "imageUrl": "https://picsum.photos/seed/leadership77/600/400"
+  },
+  {
+    "id": "78",
+    "title": "Engineering Management Meetup",
+    "location": "Vaughan",
+    "latitude": 43.84,
+    "longitude": -79.5,
+    "time": "2026-11-13T19:00:00",
+    "imageUrl": "https://picsum.photos/seed/management78/600/400"
+  },
+  {
+    "id": "79",
+    "title": "Toronto Tech Community Night",
+    "location": "Downtown Toronto",
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "time": "2026-11-14T18:30:00",
+    "imageUrl": "https://picsum.photos/seed/torontotech79/600/400"
+  },
+  {
+    "id": "80",
+    "title": "GTA Developers Conference",
+    "location": "Brampton",
+    "latitude": 43.7315,
+    "longitude": -79.7624,
+    "time": "2026-11-15T09:00:00",
+    "imageUrl": "https://picsum.photos/seed/gta80/600/400"
+  }
+]
