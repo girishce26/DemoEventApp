@@ -69,7 +69,8 @@ dependencies {
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
-   kapt(libs.androidx.hilt.compiler)
+    kapt(libs.androidx.hilt.compiler)
+    implementation(libs.androidx.hilt.work)
 
     // For Location
     implementation(libs.play.services.location)
@@ -86,5 +87,8 @@ dependencies {
 
     // Image loading
     implementation(libs.coil.compose)
+
+    // WorkManager
+    implementation(libs.androidx.work.runtime.ktx)
 
 }
