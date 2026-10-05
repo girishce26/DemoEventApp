@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
+import com.demo.event.location.MapsNavigator
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -105,7 +106,12 @@ fun EventDetailScreen(
                 Button(
                     modifier = Modifier.fillMaxWidth(),
                     onClick = {
-
+                        MapsNavigator.openDirections(
+                            context,
+                            item.latitude,
+                            item.longitude,
+                            item.title
+                        )
                     }
                 ) {
                     Text("Get Directions")
@@ -113,5 +119,4 @@ fun EventDetailScreen(
             }
         }
     }
-
 }
