@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.demo.event.location.DistanceCalculator
 import com.demo.event.location.LocationManager
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -172,16 +173,33 @@ fun EventListScreen(
                             key = { it.id }
                         ) { event ->
 
-
+                            val distance =
+                                if (
+                                    userLatitude != null &&
+                                    userLongitude != null
+                                ) {
+                                    DistanceCalculator
+                                        .calculateDistance(
+                                            userLatitude!!,
+                                            userLongitude!!,
+                                            event.latitude,
+                                            event.longitude
+                                        )
+                                        .let(
+                                            DistanceCalculator::formatDistance
+                                        )
+                                } else {
+                                    null
+                                }
 
                             EventItem(
                                 event = event,
-                                distance = "",
+                                distance = distance,
                                 onClick = {
                                     onEventClick(event.id)
                                 },
                                 onBookmarkClick = {
-
+                                    viewModel.toggleBookmark(event)
                                 }
                             )
                         }
