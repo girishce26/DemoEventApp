@@ -2,6 +2,7 @@ package com.demo.event.ui.events
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.demo.event.domain.model.Event
 import com.demo.event.domain.repository.EventRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -26,6 +27,7 @@ class EventListViewModel @Inject constructor(
 
     init {
         observeEvents()
+        refresh()
     }
 
     private fun observeEvents() {
@@ -41,6 +43,55 @@ class EventListViewModel @Inject constructor(
                         )
                     }
                 }
+        }
+    }
+
+    fun refresh() {
+
+        viewModelScope.launch {
+            _uiState.update {
+                it.copy(
+                    isLoading = true,
+                    error = null
+                )
+            }
+
+            repository.refreshEvents()
+                .onSuccess {
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false
+                        )
+                    }
+                }
+                .onFailure { error ->
+
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            error =
+                                error.message
+                                    ?: "Unable to refresh events"
+                        )
+                    }
+                }
+        }
+    }
+    fun toggleBookmark(
+        event: Event
+    ) {
+        viewModelScope.launch {
+            repository.toggleBookmark(
+                eventId = event.id,
+                bookmarked = !event.isBookmarked
+            )
+        }
+    }
+
+    fun clearError() {
+
+        _uiState.update {
+            it.copy(error = null)
         }
     }
 

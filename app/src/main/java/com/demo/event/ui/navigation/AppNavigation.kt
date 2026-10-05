@@ -49,7 +49,12 @@ fun AppNavigation() {
                     ?.getString("eventId")
                     ?: return@composable
 
-            EventDetailScreen()
+            EventDetailScreen(
+                eventId = eventId,
+                onBack = {
+                    navController.popBackStack()
+                }
+            )
         }
     }
 }

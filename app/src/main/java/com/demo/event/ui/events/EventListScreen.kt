@@ -155,7 +155,7 @@ fun EventListScreen(
         ) {
 
             when {
-                state.events.isEmpty() -> {
+                state.isLoading && state.events.isEmpty() -> {
                     Box(
                         modifier = Modifier.fillMaxSize(),
                         contentAlignment = Alignment.Center
@@ -163,7 +163,7 @@ fun EventListScreen(
                         CircularProgressIndicator()
                     }
                 }
-                else -> {
+                state.events.isNotEmpty() -> {
                     LazyColumn(
                         modifier = Modifier.fillMaxSize()
                     ) {
@@ -187,7 +187,14 @@ fun EventListScreen(
                         }
                     }
                 }
-
+                showNoEvents -> {
+                    Box(
+                        modifier = Modifier.fillMaxSize(),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text("No event found")
+                    }
+                }
             }
 
             state.error?.let { error ->
