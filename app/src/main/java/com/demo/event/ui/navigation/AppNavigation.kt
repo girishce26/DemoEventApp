@@ -20,13 +20,20 @@ fun AppNavigation() {
         startDestination = "events"
     ) {
 
+
         composable(
             route = "events"
         ) {
 
-            EventListScreen()
-        }
+            EventListScreen(
+                onEventClick = { eventId ->
 
+                    navController.navigate(
+                        "event/$eventId"
+                    )
+                }
+            )
+        }
         composable(
             route = "event/{eventId}",
             arguments = listOf(

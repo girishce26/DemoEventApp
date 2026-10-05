@@ -4,17 +4,41 @@ import android.Manifest
 import android.content.pm.PackageManager
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Snackbar
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
+import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.demo.event.location.LocationManager
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlin.time.Duration.Companion.milliseconds
 
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun EventListScreen(
+    onEventClick: (String) -> Unit,
+    viewModel: EventListViewModel =
+        hiltViewModel()
 ) {
 
+    val state by viewModel.uiState
+        .collectAsStateWithLifecycle()
 
     val context = LocalContext.current
 
@@ -98,9 +122,87 @@ fun EventListScreen(
             )
         }
     }
+    var showNoEvents by remember {
+        mutableStateOf(false)
+    }
+
+    LaunchedEffect(state.events, state.isLoading) {
+        if (!state.isLoading && state.events.isEmpty()) {
+            showNoEvents = false
+            delay(1000.milliseconds)
+            if (state.events.isEmpty()) {
+                showNoEvents = true
+            }
+        } else {
+            showNoEvents = false
+        }
+    }
+    Scaffold(
+        topBar = {
+
+            TopAppBar(
+                title = {
+                    Text("Nearby Events")
+                }
+            )
+        }
+    ) { padding ->
+
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(padding)
+        ) {
+
+            when {
+                state.events.isEmpty() -> {
+                    Box(
+                        modifier = Modifier.fillMaxSize(),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        CircularProgressIndicator()
+                    }
+                }
+                else -> {
+                    LazyColumn(
+                        modifier = Modifier.fillMaxSize()
+                    ) {
+                        items(
+                            items = state.events,
+                            key = { it.id }
+                        ) { event ->
 
 
 
+                            EventItem(
+                                event = event,
+                                distance = "",
+                                onClick = {
+                                    onEventClick(event.id)
+                                },
+                                onBookmarkClick = {
 
+                                }
+                            )
+                        }
+                    }
+                }
+
+            }
+
+            state.error?.let { error ->
+
+                Snackbar(
+                    modifier = Modifier
+                        .padding(16.dp)
+                ) {
+                    Text(error)
+                }
+            }
+
+
+
+        }
+    }
 }
 
